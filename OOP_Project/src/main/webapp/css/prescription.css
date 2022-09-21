@@ -1,0 +1,30 @@
+
+body{
+	
+	background-image : url("images/displayItems/img.png");
+	
+	
+	
+}
+
+.h3center{
+    text-align:center;
+    color:blue;
+}
+
+form{
+	text-align:left;
+	color:black;
+	display:block;
+	box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+	height: 500px;
+	width: 400px;
+	margin: 45px auto;
+	border-radius: 5px;
+	transition: .4s ease;
+	
+}
+
+.p1{
+	font-family: "Times New Roman";
+}

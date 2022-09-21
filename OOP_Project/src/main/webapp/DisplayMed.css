@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+.display {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial;
+}
+
+.display td {
+  border: 1px ;
+  padding: 10px;
+  text-align: left;
+}
+
+.centerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 1px; 
+}
+

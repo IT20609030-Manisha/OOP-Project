@@ -1,0 +1,25 @@
+body{
+	background-image : url("images/phy.jpg");
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-size:cover;
+    background-attachment: fixed;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  cellpadding:2;
+  cellspacing:2;
+  width:50%
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}

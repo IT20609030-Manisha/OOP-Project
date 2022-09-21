@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+#leftblock2{
+	display: block;
+	border: blue;
+	float: left;
+	background:#a8b4bd;
+	opacity: 0.8;
+	width:50%;
+	height: 400px;
+
+	
+}
+
+#rightblock2{
+	display: block;
+	border: 1px blue;
+	float: right;
+	background: #a8b4bd;
+	opacity: 0.8;
+	width: 50%;
+	height: 400px;
+
+}
+
+#HomeForms{
+	
+	text-align:left;
+	
+	margin-left:100px;
+	margin-right:300px;
+	margin-top: 35px;
+	
+	padding-top:25px ;
+	padding-right:50px;
+	padding-bottom:2px;
+	padding-left:60px;
+	
+	display : block;
+	background-color: #a8b4bd;
+	width:400px;
+	height:300px;
+	
+	opacity: 0.8;
+	
+}
+
+
+body{
+	background-image: url("Images2/regImg5.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+

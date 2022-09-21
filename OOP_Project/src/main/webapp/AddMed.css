@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+#RegisterForm{
+	
+	text-align:left;
+	
+	margin-left:150px;
+	margin-right:30px;
+	
+	padding-top:30px ;
+	padding-right:75px;
+	padding-bottom:450px;
+	padding-left:30px;
+	
+	display : block;
+	background-color: #a8b4bd;
+	width:400px;
+	height:450px;
+	
+	opacity: 0.8;
+	
+}
+
+#submitbtn{
+	
+	  background-color: #00b3b3; 
+	  border: none;
+	  color: #000000;
+	  padding: 10px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	  font-weight: bold;
+		
+	
+}
+
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 5px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #00b3b3;
+  box-sizing: border-box;
+
+}
+
+#RegSec{
+	background-image:url("Images2/regImg2.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+body{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+
+

@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family: Arial;
+	font-weight: bold;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 5px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #00b3b3;
+  box-sizing: border-box;
+
+}
+
+#HomeButtons{
+	border : 2px; 
+	padding : 10px 90px;
+	font-size : 14px;
+	font-weight: bold;
+	background-color : #009999;
+	border : none;
+	color : white;
+	text-align : center;
+	margin : 4px 2px;
+	opacity : 0.8;
+	transition : 0.3s;
+	display : inline-block;
+	text-decoration : none;
+}
+
+#HomeButtons:hover {opacity: 1;}
+
+#stockTables{
+	
+	font-family: Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+  	width: 100%;
+}
+
+
+
+#stockTables td, #stockTables th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#stockTables th{
+	background-color: #00cccc;
+}
+
+#deletebtn{
+	border : 2px; 
+	padding : 10px 30px;
+	font-size : 14px;
+	font-weight: bold;
+	background-color : #cc0000;
+	border : none;
+	color : white;
+	text-align : center;
+	margin : 4px 2px;
+	opacity : 0.8;
+	transition : 0.3s;
+	display : inline-block;
+	text-decoration : none;
+}
+
+#deletebtn:hover {opacity: 1;}
+
+
+#updatebtn{
+	border : 2px; 
+	padding : 10px 30px;
+	font-size : 14px;
+	font-weight: bold;
+	background-color : #00cccc;
+	border : none;
+	color : white;
+	text-align : center;
+	margin : 4px 2px;
+	opacity : 0.8;
+	transition : 0.3s;
+	display : inline-block;
+	text-decoration : none;
+}
+
+#updatebtn:hover {opacity: 1;}
+
+#updateForm{
+	margin-left:150px;
+	margin-right:30px;
+}
+
